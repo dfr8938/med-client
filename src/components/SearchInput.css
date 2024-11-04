@@ -1,0 +1,27 @@
+.input-search-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-search {
+    width: 250px;
+    height: 30px;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 10px;
+    margin-right: 10px;
+    transition: .5s ease all;
+}
+
+.input-search:focus {
+    border: 2px solid #00ccff;
+    transition: .5s ease all;
+}
+
+.questions {
+    width: 50px;
+}
+
