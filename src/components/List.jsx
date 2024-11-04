@@ -11,7 +11,6 @@ const List = ({
     <ul className={styles.list}>
       {questions.map((question, index) => (
         <ItemList
-          key={index}
           question={question}
           index={index}
           questions={allQuestionsArray}
